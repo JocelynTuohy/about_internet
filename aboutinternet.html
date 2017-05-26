@@ -5,4 +5,95 @@
     <link rel="stylesheet" href="internetstyle.css">
     <title>The Internet: The World Wide Web</title>
   </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <img src="images/globe.png" alt="clipart of globe">
+        <h1>The Inter<span class="highlight">net</span></h1>
+        <h2>The World Wide Web</h2>
+      </header>
+      <div id="main">
+        <div id="sidebar">
+          <div id="pop">
+            <h5>So, what's an <span class="red">Internet?</span></h5>
+            <p>An <span class="highlight">Inter</span>connected <span
+            class="highlight">Net</span>work of computers all around the
+            world!</p>
+            <button>WATCH A VIDEO</button>
+            <button>MORE RESOURCES</button>
+          </div>
+          <div id="line"></div>
+          <div id="ad">
+            <p>Reinvent your career in just 14 weeks</p>
+            <img src="images/ninja.png" alt="ninja clipart">
+            <button>Learn More >>></button>
+          </div>
+        </div>
+        <div id="content">
+          <div id="banner">
+            <div id="dns">
+              <img src="images/home.png" alt="house icon">
+              <p>DNS</p>
+            </div>
+            <div id="contact">
+              <img src="images/phone.png" alt="phone icon">
+              <p>Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+              <span id="phone">855.967.3787</span>
+              <p>International +1.617.963.0555</p>
+            </div>
+          </div>
+          <div id="article">
+            <h3>Clients and Servers</h3>
+            <p>Computers connected to the <a href="">Web</a> are called
+            <span class="keyword">clients</span> and
+            <span class="keyword">servers</span>.
+            <ul>
+              <li><a href="">Clients</a> are the typical Web user's
+              Internet-connected devices (for example, your computer
+              connected to your Wi-Fi, or your phone connected to your
+              mobile network) and <a href="">Web-accessing software</a>
+              available on those devices (usually a web browser like Firefox
+              or Chrome).</li>
+              <li><a href="">Servers</a> are computers that store
+              <a href="">webpages</a>, <a href="">sites</a>, or 
+              <a href="">apps</a>. When a client device wants to access a
+              webpage, a copy of the webpage is downloaded from the server
+              onto the client machine to be displayed in the user's web
+              browser.</li>
+            </ul>
+            <img src="images/client_server.jpg" alt="client server 
+            relationship diagram">
+            <h3>So What Actually Happens?</h3>
+            <ol>
+              <li>The browser goes to the <a href="">DNS server</a> and finds
+              the real address of the <a href="">server</a> that the website
+              lives on.</li>
+              <li>The browser sends an <a href="">HTTP request</a> message
+              to the server asking it to send a copy of the website to the
+              client.</li>
+              <li>If the server approves the client's request, the server
+              sends the client a <a href="">"200 OK" message</a>, which means
+              "Permission granted! Here you go!", and then starts sending the
+              websites's files to the browser as a series of small chunks.
+              </li>
+              <li>The browser assembles the small chunks into a complete
+              website and displays it to you!</li>
+            </ol>
+            <div id="inset">
+              <img src="images/html.png" alt="html, css, and javascript
+              icons">
+              <div>
+                <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+                <p>While the server can process information in many different
+                languages, the files that they serve to the client are
+                <em>always</em> going to be some combination of HTML, CSS, and
+                JavaScript!</p>
+                <p>Learn more about the Big 3 <a href="">here</a>!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
